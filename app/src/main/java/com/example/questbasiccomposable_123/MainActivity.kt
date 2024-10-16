@@ -42,7 +42,8 @@ class MainActivity : ComponentActivity() {
 fun BasicComposable(modifier: Modifier = Modifier){
     Column (
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize()
     ){
         Text(text = "Login",
             style = TextStyle(fontSize = 50.sp,
@@ -54,6 +55,9 @@ fun BasicComposable(modifier: Modifier = Modifier){
         ),
             contentDescription = null,
             modifier = Modifier.padding(top = 40.dp).size(250.dp))
+        Text(text = "Nama: ")
     }
 }
+
+
 
