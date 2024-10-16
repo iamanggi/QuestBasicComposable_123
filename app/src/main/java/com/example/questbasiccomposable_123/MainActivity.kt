@@ -10,11 +10,13 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
@@ -56,7 +58,7 @@ fun BasicComposable(modifier: Modifier = Modifier){
             id = R.drawable.logo_umy
         ),
             contentDescription = null,
-            modifier = Modifier.padding(vertical = 40.dp).size(250.dp))
+            modifier = Modifier.padding(vertical = 30.dp).size(250.dp))
         Text(text = "Nama : ",
             style = TextStyle(fontSize = 20.sp)
         )
@@ -67,6 +69,7 @@ fun BasicComposable(modifier: Modifier = Modifier){
         Text(text = "20220140123",
             style = TextStyle(fontSize = 35.sp, fontStyle = FontStyle.Italic)
         )
+
     }
 }
 
