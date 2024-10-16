@@ -69,7 +69,11 @@ fun BasicComposable(modifier: Modifier = Modifier){
         Text(text = "20220140123",
             style = TextStyle(fontSize = 35.sp, fontStyle = FontStyle.Italic)
         )
-
+        Image(painter = painterResource(
+            id = R.drawable.foto_anggii
+        ),
+            contentDescription = null,
+            modifier = Modifier.padding(vertical = 20.dp).size(350.dp).clip(RoundedCornerShape(80.dp)))
     }
 }
 
