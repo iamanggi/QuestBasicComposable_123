@@ -64,6 +64,7 @@ fun BasicComposable(modifier: Modifier = Modifier){
             style = TextStyle(fontSize = 23.sp,
                 fontWeight = FontWeight.Bold, color = Color.Red
             ))
+        Text(text = "20220140123")
     }
 }
 
