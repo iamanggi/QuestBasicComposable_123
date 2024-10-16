@@ -54,8 +54,11 @@ fun BasicComposable(modifier: Modifier = Modifier){
             id = R.drawable.logo_umy
         ),
             contentDescription = null,
-            modifier = Modifier.padding(top = 40.dp).size(250.dp))
-        Text(text = "Nama: ")
+            modifier = Modifier.padding(vertical = 40.dp).size(250.dp))
+        Text(text = "Nama : ",
+            style = TextStyle(fontSize = 20.sp)
+
+        )
     }
 }
 
