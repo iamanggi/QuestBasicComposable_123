@@ -28,3 +28,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Composable
+fun BasicComposable(){
+
+}
