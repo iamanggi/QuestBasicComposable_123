@@ -60,7 +60,10 @@ fun BasicComposable(modifier: Modifier = Modifier){
         Text(text = "Nama : ",
             style = TextStyle(fontSize = 20.sp)
         )
-        Text(text = "Anggi Puspita")
+        Text(text = "Anggi Puspita",
+            style = TextStyle(fontSize = 23.sp,
+                fontWeight = FontWeight.Bold, color = Color.Red
+            ))
     }
 }
 
