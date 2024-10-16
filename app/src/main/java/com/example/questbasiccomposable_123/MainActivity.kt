@@ -58,7 +58,9 @@ fun BasicComposable(modifier: Modifier = Modifier){
             id = R.drawable.logo_umy
         ),
             contentDescription = null,
-            modifier = Modifier.padding(vertical = 30.dp).size(250.dp))
+            modifier = Modifier
+                .padding(vertical = 30.dp)
+                .size(250.dp))
         Text(text = "Nama : ",
             style = TextStyle(fontSize = 20.sp)
         )
@@ -73,12 +75,20 @@ fun BasicComposable(modifier: Modifier = Modifier){
             id = R.drawable.foto_anggii
         ),
             contentDescription = null,
-            modifier = Modifier.padding(vertical = 20.dp).size(350.dp).clip(RoundedCornerShape(80.dp)))
+            modifier = Modifier
+                .padding(vertical = 20.dp)
+                .size(350.dp)
+                .clip(RoundedCornerShape(80.dp)))
     }
 }
 
 @Preview(showBackground = true)
-
+@Composable
+fun GreetingPreview() {
+    QuestBasicComposable_123Theme() {
+        BasicComposable()
+    }
+}
 
 
 
