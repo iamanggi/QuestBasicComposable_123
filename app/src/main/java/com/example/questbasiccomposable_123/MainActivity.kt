@@ -29,6 +29,6 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicComposable(){
+fun BasicComposable(modifier: Modifier = Modifier){
 
 }
