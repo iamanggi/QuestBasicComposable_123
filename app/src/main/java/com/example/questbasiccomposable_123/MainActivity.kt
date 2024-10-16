@@ -37,7 +37,7 @@ fun BasicComposable(modifier: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ){
-
+        Text(text = "Login" )
     }
 }
 
