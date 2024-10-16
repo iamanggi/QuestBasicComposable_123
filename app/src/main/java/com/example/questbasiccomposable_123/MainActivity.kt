@@ -77,5 +77,8 @@ fun BasicComposable(modifier: Modifier = Modifier){
     }
 }
 
+@Preview(showBackground = true)
+
+
 
 
